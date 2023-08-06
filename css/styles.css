@@ -7,7 +7,7 @@
   --SLATE: #434455;
   --LIGHT-SLATE: #8e8f99;
   --cornflower: #e7e9fc;
-  --cloud: #F4F4FD;
+  --cloud: #f4f4fd;
   --NAVY-BLUE-modal: #2e2f42;
   --GREY: #2e2f42;
   --WHITE: #ffffff;
@@ -19,9 +19,10 @@ body {
   color: var(--SLATE);
   background-color: var(--WHITE);
 }
-.link,
-.list {
+.link {
   text-decoration: none;
+}
+.list {
   list-style: none;
 }
 h1,
@@ -135,9 +136,9 @@ button {
 .logo-part-two {
   color: var(--NAVY-BLUE);
 }
-.logo-footer{
+.logo-footer {
   display: block;
-  margin-bottom: 17.5px     ;
+  margin-bottom: 17.5px;
   color: var(--iris, #4d5ae5);
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
@@ -273,8 +274,8 @@ button {
   border-radius: 0px 0px 4px 4px;
   background: var(--white, #fff);
   box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-              0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-              0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   width: calc((100% - 72px) / 4);
 }
 .headline-three {
@@ -284,6 +285,7 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  text-align: center;
 }
 .team-text {
   color: var(--slate, #434455);
@@ -318,7 +320,6 @@ button {
   margin-bottom: 72px;
 }
 .row-item-dscrp-container {
-
   padding: 32px 16px;
   border: 1px solid var(--cornflower, #e7e9fc);
   border-top: none;
@@ -335,7 +336,6 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  
 }
 .text-fltr-results {
   color: var(--slate, #434455);
@@ -354,7 +354,7 @@ button {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; 
+  line-height: 24px;
   letter-spacing: 0.32px;
 }
 .container.footer {
