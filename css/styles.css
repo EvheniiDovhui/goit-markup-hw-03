@@ -55,8 +55,8 @@ img {
   color: var(--WHITE);
   background-color: var(--OCEAN);
 }
-.fltr-btn:hover,
-.fltr-btn:focus {
+.all-btn:hover,
+.all-btn:focus {
   border: 1px solid transparent;
   color: var(--WHITE);
   background-color: var(--OCEAN);
