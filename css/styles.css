@@ -137,7 +137,8 @@ button {
   color: var(--NAVY-BLUE);
 }
 .logo-footer {
-
+  display: inline-block;
+  margin-bottom: 16px;
   color: var(--iris, #4d5ae5);
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
